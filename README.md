@@ -1,4 +1,4 @@
-# Calculator
+# Calculator (still work in progress)
 
 This is a simple **HTML calculator** built using basic web technologies.  
 It’s a lightweight, static project designed to run directly in your browser with no setup or dependencies.
