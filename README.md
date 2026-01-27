@@ -23,7 +23,7 @@ The calculator will be ready to use immediately.
 ### Option 2: Use It Online
 You can also access the calculator using the live website link:
 
-https://sokunviraksuos-afk.github.io/html-calc-1-test/
+https://sokunviraksuos-afk.github.io/simple-html-calculator/
 
 ## 🛠️ Technologies Used
 
