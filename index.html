@@ -1,77 +1,11 @@
+</html>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <title>Simple Calculator</title>
-  <style>
-    body {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-      background: #000000;
-      font-family: Arial, sans-serif;
-    }
-
-    .calculator {
-      background: #141414;
-      padding: 20px;
-      border-radius: 10px;
-      width: 260px;
-    }
-
-    .display {
-      width: 100%;
-      height: 50px;
-      margin-bottom: 10px;
-      text-align: right;
-      font-size: 24px;
-      padding: 10px;
-      box-sizing: border-box;
-      border: none;
-      border-radius: 5px;
-      color: white;
-    }
-
-    .buttons {
-      display: grid;
-      grid-template-columns: repeat(4, 1fr);
-      gap: 10px;
-    }
-
-    button {
-      height: 50px;
-      font-size: 18px;
-      border: none;
-      border-radius: 5px;
-      cursor: pointer;
-    }
-
-    button.operator {
-      background: #ff9500;
-      color: white;
-    }
-
-    button.clear {
-      background: #ff3b30;
-      color: white;
-    }
-
-    button.equal {
-      background: #34c759;
-      color: white;
-      grid-column: span 2;
-    }
-
-    button.number {
-      background: #333;
-      color: white;
-    }
-
-    button:hover {
-      opacity: 0.8;
-    }
-  </style>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
@@ -101,43 +35,6 @@
     </div>
   </div>
 
- <script>
-  const display = document.getElementById("display");
-
-  function appendValue(value) {
-    display.value += value;
-  }
-
-  function clearDisplay() {
-    display.value = "";
-  }
-
-  function squareRoot() {
-    try {
-      display.value = Math.sqrt(eval(display.value));
-    } catch {
-      display.value = "Error";
-    }
-  }
-
-  function calculate() {
-    try {
-      let expression = display.value;
-
-      // Convert a^b into Math.pow(a,b)
-      expression = expression.replace(
-        /(\d+(\.\d+)?|\))\^(\d+(\.\d+)?|\()/g,
-        'Math.pow($1,$3)'
-      );
-
-      display.value = eval(expression);
-    } catch {
-      display.value = "Syntax Error";
-    }
-  }
-</script>
-
-
-
+  <script src="script.js"></script>
 </body>
 </html>
