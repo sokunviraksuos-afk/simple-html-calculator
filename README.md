@@ -28,7 +28,8 @@ https://sokunviraksuos-afk.github.io/simple-html-calculator/
 ## 🛠️ Technologies Used
 
 - HTML  
-- CSS  
+- CSS
+- JS  
 
 ## 📌 Notes
 
