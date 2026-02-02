@@ -33,7 +33,7 @@ https://sokunviraksuos-afk.github.io/simple-html-calculator/
 
 ## 📌 Notes
 
-This project is intentionally simple and meant for learning, practice, or basic usage rather than advanced calculations.
+This project is intentionally simple and meant for learning, practice, or basic usage rather than advanced calculations. Still work in progress.
 
 ---
 
