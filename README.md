@@ -3,13 +3,13 @@
 This is a simple **HTML calculator** built using basic web technologies.  
 It’s a lightweight, static project designed to run directly in your browser with no setup or dependencies.
 
-## 📁 Project Overview
+## Project Overview
 
 - Static HTML calculator  
 - No frameworks or build tools  
 - Runs entirely in the browser  
 
-## 🚀 How to Use the Calculator
+## How to Use the Calculator
 
 You have two options:
 
@@ -31,10 +31,6 @@ https://sokunviraksuos-afk.github.io/simple-html-calculator/
 - CSS
 - JS  
 
-## 📌 Notes
+## Notes
 
 This project is intentionally simple and meant for learning, practice, or basic usage rather than advanced calculations. Still work in progress.
-
----
-
-Built for simplicity and ease of use ✨
