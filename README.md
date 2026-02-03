@@ -25,7 +25,7 @@ You can also access the calculator using the live website link:
 
 https://sokunviraksuos-afk.github.io/simple-html-calculator/
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - HTML  
 - CSS
